@@ -1,0 +1,1 @@
+"./MPU6050.obj" "./PID.obj" "./PWM.obj" "./gpio.obj" "./main.obj" "./qei.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart.obj" "../driverlib.lib" "../tm4c123gh6pm.cmd" -llibc.a 
