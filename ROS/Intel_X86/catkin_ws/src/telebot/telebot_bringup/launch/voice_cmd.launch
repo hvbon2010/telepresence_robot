@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="recognizer" pkg="telebot_bringup" type="recognizer.py">
+    <param name="lm" value="$(find telebot_bringup)/pocketsphinx/voice_cmd.lm"/>
+    <param name="dict" value="$(find telebot_bringup)/pocketsphinx/voice_cmd.dic"/>
+  </node>
+
+  <node name="voice_cmd_vel" pkg="telebot_bringup" type="voice_cmd_vel.py" output="screen">
+  	<remap from="voice_cmd_vel/cmd_vel" to="cmd_vel_mux/input/teleop"/> 
+  </node>
+</launch>

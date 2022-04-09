@@ -1,0 +1,5 @@
+<s> TURN LEFT </s>
+<s> TURN RIGHT </s>
+<s> STOP </s>
+<s> FORWARD </s>
+<s> BACKWARD </s>

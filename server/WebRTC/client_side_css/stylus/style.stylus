@@ -1,0 +1,49 @@
+body {
+  width: 800 px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16 px;
+  corlor: white;
+}
+
+div.title {
+  background-color : #e3efdf;
+  margin : center;
+  text-align : center;
+  width : 800 px;
+  height : 80 px;
+}
+
+div.sideleft {
+  background-color: #9df679;
+  width: 300 px;
+  height: 400 px;
+  float: left;
+}
+div.stream {
+ 
+  background-color: #d9ebe7;
+  width: 500 px;
+  height: 400 px
+  float: right;
+}
+
+div.Intruction {
+
+  float: right;
+  background-color: #55f5d1;
+  width: 270 px;
+  height: 150 px;
+  overflow-y:scroll;
+  
+}
+
+div.UI{
+  
+  float: right;
+  background-color: #cae125;
+  width: 270 px;
+  height: 150 px;
+  overflow-y: scroll;
+  
+}
