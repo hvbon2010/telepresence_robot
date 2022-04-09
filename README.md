@@ -26,7 +26,5 @@ We use WebRTC to run this features.
 
 https://webrtc.org/
 
-Author: tranloi2512@gmail.com
-
 # Demo video
 https://www.youtube.com/watch?v=L0Hp8z0R1nA
