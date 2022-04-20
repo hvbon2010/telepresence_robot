@@ -2,6 +2,8 @@
 Install the ROS first
 http://wiki.ros.org/Installation/Ubuntu
 
+At root of folder, run `catkin_init_workspace`.
+
 And then, go to the catkin_ws, and run `catkin_make`.
 
 After compile successfully, 2 folders will be generated is `build` and `devel`.
